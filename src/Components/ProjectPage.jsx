@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import ToDo from './images/todoapp.webp';
 import MindMatrix from './images/mindmatrixapp.webp';
 // import Toggle from './images/toggleapp.webp';
-import Calculator from './images/calculatorapp.webp';
+import Calculator from './images/calculator.webp';
 
 export const ProjectPage = () => {
   const projects = [

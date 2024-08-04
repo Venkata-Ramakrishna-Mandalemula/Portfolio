@@ -17,7 +17,7 @@ import Highlight from './images/highlight.webp';
 import Carousal from './images/carousal.webp';
 import Eclipse from './images/eclipse.webp';
 import Jokes from './images/jokes.webp';
-import Calculator from './images/calculatorapp.webp';
+import Calculator from './images/calculator.webp';
 
 export const ProjectMain = () => {
   const projects = [
