@@ -17,6 +17,7 @@ import Highlight from './images/highlight.webp';
 import Carousal from './images/carousal.webp';
 import Eclipse from './images/eclipse.webp';
 import Jokes from './images/jokes.webp';
+import Calculator from './images/calculatorapp.webp';
 
 export const ProjectMain = () => {
   const projects = [
@@ -33,6 +34,13 @@ export const ProjectMain = () => {
         'An innovative educational platform designed to enhance learning experiences with interactive courses, personalized learning paths, and real-time progress tracking.',
       link: 'https://mindmatrix.netlify.app/',
       image: MindMatrix,
+    },
+    {
+      title: 'Calculator',
+      description:
+        'A simple and elegant calculator that supports basic arithmetic operations and percentage calculations. Features a clean, user-friendly interface.',
+      link: 'https://calculatorvrm.netlify.app/',
+      image: Calculator,
     },
     {
       title: 'Toggle Switch',

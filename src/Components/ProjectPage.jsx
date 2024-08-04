@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 
 import ToDo from './images/todoapp.webp';
 import MindMatrix from './images/mindmatrixapp.webp';
-import Toggle from './images/toggleapp.webp';
+// import Toggle from './images/toggleapp.webp';
+import Calculator from './images/calculatorapp.webp';
 
 export const ProjectPage = () => {
   const projects = [
@@ -25,11 +26,11 @@ export const ProjectPage = () => {
       image: MindMatrix,
     },
     {
-      title: 'Toggle Switch',
+      title: 'Calculator',
       description:
-        'A user-friendly toggle switch component for light and dark mode themes.',
-      link: 'https://togglebuttonvrm.netlify.app/',
-      image: Toggle,
+        'A simple and elegant calculator that supports basic arithmetic operations and percentage calculations. Features a clean, user-friendly interface.',
+      link: 'https://calculatorvrm.netlify.app/',
+      image: Calculator,
     },
   ];
   return (
