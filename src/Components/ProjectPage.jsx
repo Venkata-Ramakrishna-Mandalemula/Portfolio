@@ -5,9 +5,10 @@ import './Global.css';
 import { Link } from 'react-router-dom';
 
 import ToDo from './images/todoapp.webp';
-import MindMatrix from './images/mindmatrixapp.webp';
+// import MindMatrix from './images/mindmatrixapp.webp';
 // import Toggle from './images/toggleapp.webp';
 import Calculator from './images/calculator.webp';
+import WeatherApp from './images/weatherapp.webp';
 
 export const ProjectPage = () => {
   const projects = [
@@ -19,12 +20,13 @@ export const ProjectPage = () => {
       image: ToDo,
     },
     {
-      title: 'Mind-Matrix',
+      title: 'Weather App',
       description:
-        'An innovative educational platform designed to enhance learning experiences with interactive courses, personalized learning paths, and real-time progress tracking.',
-      link: 'https://mindmatrix.netlify.app/',
-      image: MindMatrix,
+        'WeatherApp provides real-time weather updates for any location. Users can search by city to view temperature, humidity, wind speed, and more.',
+      link: 'https://weathervrm.netlify.app/',
+      image: WeatherApp,
     },
+
     {
       title: 'Calculator',
       description:
