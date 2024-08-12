@@ -19,6 +19,7 @@ import Eclipse from './images/eclipse.webp';
 import Jokes from './images/jokes.webp';
 import Calculator from './images/calculator.webp';
 import WeatherApp from './images/weatherapp.webp';
+import ProfileFinder from './images/profilefinder.webp';
 
 export const ProjectMain = () => {
   const projects = [
@@ -49,6 +50,13 @@ export const ProjectMain = () => {
         'An innovative educational platform designed to enhance learning experiences with interactive courses, personalized learning paths, and real-time progress tracking.',
       link: 'https://mindmatrix.netlify.app/',
       image: MindMatrix,
+    },
+    {
+      title: 'Dynamic Profile Finder',
+      description:
+        'A TypeScript-based application that leverages the GitHub API to dynamically search and display GitHub usernames.',
+      link: 'https://profilefindervrm.netlify.app/',
+      image: ProfileFinder,
     },
 
     {
