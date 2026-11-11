@@ -25,15 +25,6 @@ export const Navbar = () => {
         <nav className="navbar">
           <ul className="nav-menu">
             <li className="nav-item">
-              <a
-                className="nav-link resume-link"
-                href="/Venkata Ramakrishna Mandalemula Resume.pdf"
-                download="Venkata Ramakrishna Mandalemula Resume.pdf"
-              >
-                RESUME
-              </a>
-            </li>
-            <li className="nav-item">
               <Link to="/" className="nav-links">
                 HOME
               </Link>
