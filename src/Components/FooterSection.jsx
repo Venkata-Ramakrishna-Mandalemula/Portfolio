@@ -40,10 +40,10 @@ export const FooterSection = () => {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
-          <p>Email me at venkatamandalemula@gmail.com</p>
+          <p>Email me at ramakrishnamandalemula3@gmail.com</p>
           <br />
           <p>
-            &copy; 2024 Venkata Ramakrishna Mandalemula. All rights reserved.
+            &copy; 2026 Venkata Ramakrishna Mandalemula. All rights reserved.
           </p>
         </div>
       </div>
